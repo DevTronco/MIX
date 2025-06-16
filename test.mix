@@ -1,0 +1,8 @@
+var x = 15;
+
+if (x == 15){
+    print x;
+}
+else{
+    print "x non é 15 ma " + x;
+}
