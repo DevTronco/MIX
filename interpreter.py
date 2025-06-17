@@ -151,7 +151,20 @@ def run_code(code):
                     print("Else statement can work!")
                 if brace_count > 0:
                     else_block.append(current_line)
-                
+        #functions
+        elif line.startswith("func"):
+            print("Function identified!")
+            #TODO: Add logic for functions (args, braces etc...)
+
+        #while loops    
+        elif line.startswith("while"):
+            print("While-loop identified!")
+            #TODO: Add logic
+        
+        #for loops
+        elif line.startswith("for"):
+            print("For-loop identified!")
+            #TODO: add logic
         i += 1
 
 #test
